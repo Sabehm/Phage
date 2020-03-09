@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255)
+}
+
+h2 {
+    /*font-family: 'Krub', 'sans-serif';*/
+    font-size: 40px;
+    /*font-weight: 700;*/
+}
+
+nav {
+    max-height: 70px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+footer {
+    padding-top: 0px!important;
+    background-color: green;
+}
+
+.buttons {
+    max-width: 380px
+}
+
+.clean-block.clean-hero::before {
+    background: linear-gradient(360deg, #FF1744 30%, #FF8A88 100%);
+}
+
+.curved {
+    background-color: #FF1744;
+}
+
+.curved p {
+    background-color: #FFF;
+}
+
+.page-footer {
+    padding-top: 0px;
+}
+
+.secondary:hover {
+    color: #222222;
+}
+
+.welcome {
+    min-width: 1000px;
+}
